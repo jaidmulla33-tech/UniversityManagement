@@ -141,8 +141,8 @@ Each entity (Department, Professor, Course, Student, Classroom) supports:
 
 ##  Application Architecture
 
-```
-Main.java → Model (entity classes) → DAO classes → JDBC → MySQL Database
+![Architecture Diagram](docs/Architecture-Diagram.png)
+
 ```
 
 Each entity has its own DAO, keeping database logic isolated and the codebase easy to extend.
